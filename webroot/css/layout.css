@@ -1,0 +1,102 @@
+.panel-login{
+    margin-top: calc(50vh - 200px);
+}
+
+.navbar, .dropdown-menu, .dropdown-item:hover{
+    background-color: #36B2BE !important;
+}
+
+.active a{
+    background-color: #36B2BE !important;
+}
+
+a{
+    cursor: pointer;
+}
+
+i{
+    color: black;
+}
+
+.navbar{
+    margin-top: 76px;
+}
+
+.page-item{
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+
+.page-link{
+    border-radius: 100%;
+    border-top-right-radius: 100% !important;
+    border-bottom-right-radius: 100% !important;
+    border-top-left-radius: 100% !important;
+    border-bottom-left-radius: 100% !important;
+    border: 1px solid #36B2BE;
+}
+
+.left{
+    float: left;
+    margin-right: 8px;
+}
+
+.text-green{
+    color: green !important;
+}
+
+.text-red{
+    color: red !important;
+}
+
+.button{
+    border-radius: 50%;
+}
+
+.button:hover{
+    background-color: lightgray;
+}
+
+.button[disabled]{
+    background-color: lightcoral;
+}
+
+.right{
+    float: right;
+    margin-left: 8px;
+}
+
+.container{
+    margin-top: -20px;
+}
+
+.card{
+    margin-bottom: 16px;
+}
+
+.input-group{
+    margin-bottom: 8px;
+}
+
+.nav-system{
+    width: 100%;
+    height: 76px;
+    padding: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+
+.navbar li a{
+    color: #36B2BE;
+}
+
+.dropdown-item, .nav-link{
+    color: white !important;
+}
+
+.dropdown-item:hover, .navbar li a:hover{
+    font-weight: bold;
+}
